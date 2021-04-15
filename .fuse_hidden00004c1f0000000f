@@ -1,0 +1,149 @@
+[debug] [2021-04-15T11:34:10.325Z] ----------------------------------------------------------------------
+[debug] [2021-04-15T11:34:10.330Z] Command:       /usr/local/bin/firebase /home/rabi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2021-04-15T11:34:10.331Z] CLI Version:   9.8.0
+[debug] [2021-04-15T11:34:10.331Z] Platform:      linux
+[debug] [2021-04-15T11:34:10.331Z] Node Version:  v12.2.0
+[debug] [2021-04-15T11:34:10.337Z] Time:          Thu Apr 15 2021 17:19:10 GMT+0545 (Nepal Time)
+[debug] [2021-04-15T11:34:10.337Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-15T11:34:10.344Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-15T11:34:10.344Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /media/rabi/New Volume/subash/flutter_shopping_admin
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-04-15T11:34:17.632Z] > refreshing access token with scopes: []
+[debug] [2021-04-15T11:34:17.633Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-15T11:34:17.959Z] <<< HTTP RESPONSE 200 {"date":"Thu, 15 Apr 2021 11:34:17 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-15T11:34:17.964Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-04-15T11:34:18.643Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-04-15T11:34:18.643Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project rasan-ae826 (rasan) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-04-15T11:35:12.877Z] ----------------------------------------------------------------------
+[debug] [2021-04-15T11:35:12.879Z] Command:       /usr/local/bin/firebase /home/rabi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2021-04-15T11:35:12.879Z] CLI Version:   9.8.0
+[debug] [2021-04-15T11:35:12.879Z] Platform:      linux
+[debug] [2021-04-15T11:35:12.879Z] Node Version:  v12.2.0
+[debug] [2021-04-15T11:35:12.880Z] Time:          Thu Apr 15 2021 17:20:12 GMT+0545 (Nepal Time)
+[debug] [2021-04-15T11:35:12.880Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-15T11:35:12.884Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-15T11:35:12.885Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /media/rabi/New Volume/subash/flutter_shopping_admin
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-04-15T11:36:21.352Z] ----------------------------------------------------------------------
+[debug] [2021-04-15T11:36:21.354Z] Command:       /usr/local/bin/firebase /home/rabi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2021-04-15T11:36:21.354Z] CLI Version:   9.8.0
+[debug] [2021-04-15T11:36:21.354Z] Platform:      linux
+[debug] [2021-04-15T11:36:21.354Z] Node Version:  v12.2.0
+[debug] [2021-04-15T11:36:21.354Z] Time:          Thu Apr 15 2021 17:21:21 GMT+0545 (Nepal Time)
+[debug] [2021-04-15T11:36:21.355Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-15T11:36:21.359Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-15T11:36:21.360Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /media/rabi/New Volume/subash/flutter_shopping_admin
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-04-15T11:36:40.537Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2021-04-15T11:36:41.684Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2021-04-15T11:36:41.684Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2021-04-15T11:37:19.025Z] ----------------------------------------------------------------------
+[debug] [2021-04-15T11:37:19.027Z] Command:       /usr/local/bin/firebase /home/rabi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2021-04-15T11:37:19.027Z] CLI Version:   9.8.0
+[debug] [2021-04-15T11:37:19.027Z] Platform:      linux
+[debug] [2021-04-15T11:37:19.027Z] Node Version:  v12.2.0
+[debug] [2021-04-15T11:37:19.027Z] Time:          Thu Apr 15 2021 17:22:19 GMT+0545 (Nepal Time)
+[debug] [2021-04-15T11:37:19.028Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-15T11:37:19.033Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-15T11:37:19.033Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /media/rabi/New Volume/subash/flutter_shopping_admin
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-04-15T11:39:02.509Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-04-15T11:39:02.741Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
